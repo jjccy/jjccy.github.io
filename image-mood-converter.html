@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Image Mood Converter</title>
+    <!--
+    Portfolio project io for Jimmy Chu
+    Author Jimmy Chu
+    With a lot of help for html entities and css elements from W3schools.com, CSS tricks, stack overflow
+    -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+
+    <link rel="stylesheet" type = "text/css" href="css/normalize.css">
+    <link rel="stylesheet" type = "text/css" href="css/main.css">
+    <link rel="stylesheet" type = "text/css" href="css/project.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <!-- navgation bar start from here -->
+    <div id="navgation-bar" class="flex-box">
+      <nav class="flex-item-min flex-box" aria-label="left-part">
+        <a href="index.html#project" class="main-nav-link flex-item-min">Product</a>
+        <a href="index.html#about" class="main-nav-link flex-item-min">About</a>
+        <!-- <a href="index.html#contact" class="main-nav-link flex-item-min" id="contact-link">Contact</a> -->
+      </nav>
+
+      <a href="index.html" class="flex-item-max flex-box logo">
+        <span class="flex-item-max"></span>
+
+        <div class="flex-item-min">
+          <img src="img/logo.png" alt="logo image" >
+        </div>
+        <p class="flex-item-min">
+          Jimmy Chu
+        </p>
+
+        <span class="flex-item-max"></span>
+      </a>
+
+      <nav class="flex-item-min flex-box" aria-label="right-part">
+        <a href="https://www.facebook.com/jimmy.chu.526438" target="_blank" class="main-nav-icon flex-item-min">
+          <img src="img/Facebook_5.svg" alt="fackbook icon">
+        </a>
+        <a href="https://github.com/jjccy" target="_blank" class="main-nav-icon flex-item-min">
+          <img src="img/Github_5.svg" alt="github icon">
+        </a>
+        <a href="https://www.linkedin.com/in/jimmy-chu-4b9150188" target="_blank" class="main-nav-icon flex-item-min">
+          <img src="img/Linkedin_5.svg" alt="linkedin icon">
+        </a>
+      </nav>
+    </div>
+    <!-- navgation bar ends here -->
+
+    <div class="full-img-background" style="background-image: url('img/imc/imc-cover.jpg');">
+
+      <h1 class="title">Image Mood Converter</h1>
+    </div>
+
+    <!-- start content wrapper -->
+    <div class="content-wrapper">
+
+
+      <div class="project-info flex-box">
+
+        <div class="role flex-item-min">
+          <h2>Role</h2>
+
+          <p>
+            Programmer <br> Debuger <br> Researcher
+          </p>
+
+          <h2>Team</h2>
+
+          <p>
+            Ben Wong <br>Jimmy Chu
+          </p>
+
+          <a href="download/ImageMoodConverter.zip" download class="bE-link">
+            Download project
+          </a>
+
+          <br>
+
+          <a href="https://github.com/jjccy/Image-mood-converter" target="_blank"class="bE-link">
+            Github
+          </a>
+
+        </div>
+
+        <div class="description flex-item-min">
+          <h2>Project overview</h2>
+          <div class="aspect-ratio">
+            <iframe title="project overview"
+            src="https://www.youtube.com/embed/kKqnCmcjQHU"
+            allowfullscreen="allowfullscreen">
+            </iframe>
+          </div>
+
+          <h2>Project Description</h2>
+
+          <p>
+            Image Mood Converter is a half month course project for IAT 455: Computational Media.
+            The goal of this project is to explore the use of colour in
+            changing the emotions and mood of a particular image. Through this,
+            we hope to achieve a level of modification such that the supplied images,
+            if they are rather gloomy, with grey skies or generally less appealing colours,
+            can be modified to be warmer and brighter.
+          </p>
+          <p>
+            We notice that this can be done in Photoshop or other image editing programs,
+            but the problem with those is that the emotional/mood colour shift of
+            those programs require the manual brushing from the user.
+            In this program, we wish to automate it so that the user can colour
+            shift many images in a short period of time.
+          </p>
+
+        </div> <!-- end description -->
+
+      </div> <!-- end project info -->
+
+
+
+      <h1>Process</h1>
+
+      <h2>Inspiration</h2>
+
+      <div class="flex-box text-image">
+
+        <div class="flex-item-min">
+          <p>
+            After we decide on the general goal for this project, I start to do
+            research on these areas. One research paper really inspired me is called
+            <i>Automatic Mood-Transferring between Color Images</i>, written by
+            Yang, Chuan-kai and Peng, Li-Kai. This paper classified an image into
+            24 colour moods where each image has a different percentage of moods.
+            The paper also introduces an algorithm to shift the input image’s mood to the
+            reference image’s mood by recalculating the RGB value.
+          </p>
+          <p>
+            We plan to create a program with a GUI on the right side that allows users to upload their own images (first through direct upload and later possibly
+            by grabbing images from the internet URL itself). After successful upload,
+            the user can click a number of buttons, each with its own emotional or
+            mood colours where the image’s colours will shift accordingly.
+          </p>
+          <p>
+            My job was mainly on the general layout of the code, include import images,
+            saving output images, mood visualizer and some versions of the mood transfer script.
+            I also work on searching research articles and try to adapt their ideas to our project.
+          </p>
+        </div>
+
+        <div class="flex-item-min img-display">
+          <a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.607.407" target="_blank">
+            <img src="img/imc/inspiration.png" alt="research paper 'Automatic Mood-Transferring between Color Images'">
+          </a>
+
+          <p>
+            Automatic Mood-Transferring between Color Images <br>
+            Yang, Chuan-kai & Peng, Li-Kai
+          </p>
+        </div>
+
+      </div>
+
+      <h2>Basic Mechanism</h2>
+
+
+      <div class="flex-box text-image">
+
+        <div class="flex-item-min">
+          <p>There are only total of  mechanisms in this project, Include</p>
+          <ol class="clear-list">
+            <li>Load Image</li>
+            <li>Save Image</li>
+            <li>Recognize Image</li>
+            <li>Mood Transfer</li>
+          </ol>
+          <p>
+            I start to work on with load image and save the image first. This allows
+            user to upload image files to the programme and save generated image once
+            complete. I didn't have too much experience on working with JFilesChooser
+            (A class allow the user to choose files) before. This project provides me with
+            a good chance to understand how it works.
+          </p>
+          <p>
+            I also found out that this class has many interesting features, including from
+            different layouts to file type. Just with some simple coding, I can limited
+            user to only upload the image files to prevent any internal bug.
+          </p>
+        </div>
+
+        <div class="flex-item-min img-display">
+          <img id="modal1" class="modalImage" onclick="modalClick(1)" src="img/imc/file1.png" alt="code for import / save files 1">
+          <img id="modal2" class="modalImage" onclick="modalClick(2)" src="img/imc/file2.png" alt="code for import / save files 2">
+          <img id="modal3" class="modalImage" onclick="modalClick(3)" src="img/imc/file3.png" alt="code for import / save files 3">
+        </div>
+
+
+      </div>
+
+      <h2>Mood Converter</h2>
+
+      <p>
+        Mood converting is the most important part of this project. While researching,
+        I saw many different types of method to achieve this feature, I decided to
+        adapt some of them into this project.
+      </p>
+
+      <p>
+        The first method I tried is separate all colours in the reference image into
+        24 sections by RGB. Choose the most colour section and multiplied with the
+        input image. This method only works when the reference image is dominated by similar
+        color so that is a no. I also tried to separate colours by HSV's Hue value,
+        also separate input image into small sections according to its hue, modified
+        the image according to its section and reference image's colour sector.
+        This method also didn't work out and creates huge amounts of artifacts
+        that we don't want.
+      </p>
+
+      <div id="horizontal-images" class="flex-box">
+        <div class="flex-item-min">
+          <img id="modal4" class="modalImage" onclick="modalClick(4)" src="img/imc/mechanism1.png" alt="failer example 1">
+        </div>
+        <div class="flex-item-min">
+          <img id="modal5" class="modalImage" onclick="modalClick(5)" src="img/imc/mechanism2.png" alt="failer example 2">
+        </div>
+        <div class="flex-item-min">
+          <img id="modal6" class="modalImage" onclick="modalClick(6)" src="img/imc/mechanism3.png" alt="failer example 3">
+        </div>
+      </div>
+
+      <p>
+        Most of the approaches we tried have some issues here and there, so we decide to modified
+        our first method to able to fit more situations. Mood transfer is not a simple project
+        I thought it is. it requires complex algorithms to makes it looks right.
+        At the last minute, I found out some better solutions such as Exact Histogram Match,
+        but we don't have time to learn it. The outcome is not perfect, but ideal.
+      </p>
+
+
+
+      <h1>Final Result</h1>
+
+      <!-- start carousel section -->
+      <!--
+      the idea for this carousel is W3 school
+      How TO - Slideshow
+      https://www.w3schools.com/howto/howto_js_slideshow.asp
+      -->
+
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img src="img/imc/result1.png" alt="result image 1">
+          <!-- <div class="text">Caption Text</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="img/imc/result2.png" alt="result image 2">
+          <!-- <div class="text">Caption Two</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="img/imc/result3.png" alt="result image 3">
+          <!-- <div class="text">Caption Three</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 5</div>
+          <img src="img/imc/result4.png" alt="result image 4">
+          <!-- <div class="text">Caption Four</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 5</div>
+          <div class="aspect-ratio">
+            <iframe title="project overview again"
+            src="https://www.youtube.com/embed/kKqnCmcjQHU"
+            allowfullscreen="allowfullscreen">
+            </iframe>
+          </div>
+          <!-- <div class="text">Caption Five</div> -->
+        </div>
+
+
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+
+      <!-- end carousel section -->
+
+      <h1>Reflection</h1>
+
+      <p>
+        This project helps me learn a lot about Java and image processing.
+        It taught me some basic and in-depth information about how computer understand
+        images and the general logic of how image processer on the market works.
+        I do try to use the article as a guide, but it has serious artificial that we don't want.
+        I'm ok with the outcome for this project, however, I do wish to improve this
+        programme in the future.
+      </p>
+
+    </div>
+    <!-- end content wrapper -->
+
+
+    <!-- start of projects section -->
+
+    <section class="projects-section">
+      <h1>Other projects</h1>
+
+      <div id="elem" class="flex-box">
+
+        <div id="outer" class="flex-item-max">
+          <div id="inner">
+
+            <div class="project-item">
+              <div class="flex-box">
+                <a href="birds-of-feather.html" class="flex-item-min">
+                  <img src="img/bof/birds-of-feather2-min.png" alt="bird of feather">
+                </a>
+
+                <p>Birds of Feather</p>
+              </div>
+            </div>
+
+            <div class="project-item">
+              <div class="flex-box">
+                <a href="image-mood-converter.html" class="flex-item-min">
+                  <img src="img/imc/imc-cover-min.jpg" alt="image mood converter">
+                </a>
+
+                <p>Image Mood Converter</p>
+              </div>
+            </div>
+
+            <!-- <div class="project-item">
+              <div class="flex-box">
+                <a href="index.html" class="flex-item-min">
+                  <img src="img/birds-of-feather.png" alt="temp">
+                </a>
+
+                <p>Temp</p>
+              </div>
+            </div> -->
+
+
+          </div> <!-- end of inner -->
+        </div> <!-- end of outer -->
+
+      </div> <!-- end of elem -->
+    </section>
+
+    <!-- end of project section -->
+
+    <!-- footer starts here -->
+    <footer>
+      <nav class="footer-nav flex-box">
+        <span class="flex-item-max"></span>
+
+        <a href="styleguide.html" class="flex-item-min" target="_blank">Style Guide</a>
+        <p class="flex-item-min">|</p>
+        <a href="citation.html" class="flex-item-min" target="_blank">Citation</a>
+        <p class="flex-item-min">|</p>
+        <a href="https://github.com/jjccy/P03-portfolio/tree/new-master" class="flex-item-min" target="_blank">Github</a>
+
+        <span class="flex-item-max"></span>
+      </nav>
+      <p>© 2019 Jimmy Chu</p>
+    </footer>
+    <!-- footer ends here -->
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <div class="modal-holder">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        class="modal-content" id="img01" alt="modal image">
+      </div>
+    </div>
+
+    <!-- blinking hint -->
+    <div id = "hint" class="noSelect">
+      <p id="hint-i">&#10095;</p>
+    </div>
+
+    <!-- back to top button -->
+    <a id="back2Top" href="#">&#10148;</a>
+
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="script/horizontal-scroll.js"></script>
+    <script src="script/carousel.js"></script>
+    <script src="script/main.js"></script>
+  </body>
+</html>

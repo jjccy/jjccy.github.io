@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Style Guide</title>
+    <!--
+    Portfolio styleguide io for Jimmy Chu
+    Author Jimmy Chu
+    With a lot of help for html entities and css elements from W3schools.com, CSS tricks, stack overflow
+    -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+
+    <link rel="stylesheet" type = "text/css" href="css/normalize.css">
+    <link rel="stylesheet" type = "text/css" href="css/main.css">
+    <link rel="stylesheet" type = "text/css" href="css/project.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <!-- navgation bar start from here -->
+    <div id="navgation-bar" class="flex-box">
+      <nav class="flex-item-min flex-box" aria-label="left-part">
+        <a href="index.html#project" class="main-nav-link flex-item-min">Product</a>
+        <a href="index.html#about" class="main-nav-link flex-item-min">About</a>
+        <!-- <a href="index.html#contact" class="main-nav-link flex-item-min" id="contact-link">Contact</a> -->
+      </nav>
+
+      <a href="index.html" class="flex-item-max flex-box logo">
+        <span class="flex-item-max"></span>
+
+        <div class="flex-item-min">
+          <img src="img/logo.png" alt="logo image" >
+        </div>
+        <p class="flex-item-min">
+          Jimmy Chu
+        </p>
+
+        <span class="flex-item-max"></span>
+      </a>
+
+      <nav class="flex-item-min flex-box" aria-label="right-part">
+        <a href="https://www.facebook.com/jimmy.chu.526438" target="_blank" class="main-nav-icon flex-item-min">
+          <img src="img/Facebook_5.svg" alt="fackbook icon">
+        </a>
+        <a href="https://github.com/jjccy" target="_blank" class="main-nav-icon flex-item-min">
+          <img src="img/Github_5.svg" alt="github icon">
+        </a>
+        <a href="https://www.linkedin.com/in/jimmy-chu-4b9150188" target="_blank" class="main-nav-icon flex-item-min">
+          <img src="img/Linkedin_5.svg" alt="linkedin icon">
+        </a>
+      </nav>
+    </div>
+    <!-- navgation bar ends here -->
+
+    <!-- start body wrapper, limit width of the bady and keep in center -->
+    <div class="body-wrapper">
+      <h1>Style Guide</h1>
+
+      <section id="style-guide">
+          <h2>Style guide and Pattern Library</h2>
+
+          <h2>Basic Interactive elements</h2>
+
+          <ol>
+
+            <li>
+              <p>
+                an in-text link <a href="#" class="bE-link">in-text link</a><br>
+              </p>
+              <div class="code-holder">
+                <code>
+                  &lt;a href="#" class="bE-link"&gt;in-text link&lt;/a&gt;
+                </code>
+              </div>
+            </li>
+
+            <li>
+              <p>
+                call action button <button type="submit" name="submit" class="bE-button">Button</button>
+              </p>
+              <div class="code-holder">
+                <code>
+                  &lt;button type="submit" class="bE-button"&gt;Button&lt;/button&gt;
+                </code>
+              </div>
+            </li>
+
+            <li>
+              <p>
+                a text input field, a label, a submit and reset button for forms
+              </p>
+              <form class="bE-form">
+                <label for="name" class="bE-label">Name</label><br>
+                <input type="text" id="name" class="bE-input-text"><br>
+                <button type="reset" class="bE-button">Reset the form!</button><br>
+                <button type="submit" class="bE-button" disabled>Submit</button>
+              </form><br>
+
+              <div class="code-holder">
+                <code>
+                  &lt;form action="/button-type" class="bE-form"&gt;<br>
+                    &nbsp;&nbsp;&lt;label for="name" class="bE-label"&gt;Name&lt;/label&gt;&lt;br&gt;<br>
+                    &nbsp;&nbsp;&lt;input type="text" id="name" class="bE-input-text"&gt;&lt;br&gt;<br>
+                    &nbsp;&nbsp;&lt;button type="reset" class="bE-button"&gt;Reset the form!&lt;/button&gt;&lt;br&gt;<br>
+                    &nbsp;&nbsp;&lt;button type="submit" class="bE-button" disabled&gt;Submit&lt;/button&gt;<br>
+                  &lt;/form&gt;&lt;br&gt;
+                </code>
+              </div>
+            </li>
+
+          </ol>
+
+
+          <h2>Text styling</h2>
+
+          <ol>
+
+            <li>
+              <h1>h1 heading</h1>
+              <h2>h2 heading</h2>
+              <h3>h3 heading</h3>
+              <h4>h4 heading</h4>
+
+              <div class="code-holder">
+                <code>
+                  &lt;h1&gt;h1 heading&lt;/h1&gt;<br>
+                  &lt;h2&gt;h2 heading&lt;/h2&gt;<br>
+                  &lt;h3&gt;h3 heading&lt;/h3&gt;<br>
+                  &lt;h4&gt;h4 heading&lt;/h4&gt;
+                </code>
+              </div>
+            </li>
+
+            <li>
+              <p>
+                A paragraph
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                bulletted lists
+              </p>
+                <ul class="clear-list">
+                  <li>
+                    bulletted list
+                  </li>
+                  <li>
+                    bulletted list
+                  </li>
+                  <li>
+                    bulletted list
+                  </li>
+                </ul><br>
+
+              <div class="code-holder">
+                <code>
+                  &lt;ul class="clear-list"&gt;<br>
+                    &nbsp;&nbsp;&lt;li&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;bulletted list<br>
+                    &nbsp;&nbsp;&lt;/li&gt;<br>
+                    &nbsp;&nbsp;&lt;li&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;bulletted list<br>
+                    &nbsp;&nbsp;&lt;/li&gt;<br>
+                    &nbsp;&nbsp;&lt;li&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;bulletted list<br>
+                    &nbsp;&nbsp;&lt;/li&gt;<br>
+                  &lt;/ul&gt;<br>
+                </code>
+              </div>
+            </li>
+
+            <li>
+              <p>
+                numbered lists
+              </p>
+                <ol class="clear-list">
+                  <li>
+                    numbered list
+                  </li>
+                  <li>
+                    numbered list
+                  </li>
+                  <li>
+                    numbered list
+                  </li>
+                </ol><br>
+
+              <div class="code-holder">
+                <code>
+                  &lt;ol class="clear-list"&gt;<br>
+                    &nbsp;&nbsp;&lt;li&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;numbered list<br>
+                    &nbsp;&nbsp;&lt;/li&gt;<br>
+                    &nbsp;&nbsp;&lt;li&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;numbered list<br>
+                    &nbsp;&nbsp;&lt;/li&gt;<br>
+                    &nbsp;&nbsp;&lt;li&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;numbered list<br>
+                    &nbsp;&nbsp;&lt;/li&gt;<br>
+                  &lt;/ol&gt;<br>
+                </code>
+              </div>
+            </li>
+
+          </ol>
+
+          <h2>Modules</h2>
+
+          <ol>
+
+            <li>
+              <p>
+                Main nav link <br>
+              </p>
+              <a href="#" class="main-nav-link">Nav-Link</a>
+              <div class="code-holder">
+                <code>
+                  &lt;a href="#" class="main-nav-link"&gt;Nav-Link&lt;/a&gt;
+                </code>
+              </div>
+            </li>
+
+            <li>
+              <a href="nav-template.html" target="_blank" class="bE-link">Main navgation template</a>
+
+              <div class="code-holder">
+                <code>
+                  &lt;div id="navgation-bar" class="flex-box"&gt; <br>
+                  &nbsp;&nbsp;  &lt;nav class="flex-item-min flex-box" aria-label="left-part"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;    &lt;a href="index.html#project" class="main-nav-link flex-item-min"&gt;Product&lt;/a&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;    &lt;a href="index.html#about" class="main-nav-link flex-item-min"&gt;About&lt;/a&gt; <br>
+                  &nbsp;&nbsp;  &lt;/nav&gt; <br>
+                   <br>
+                  &nbsp;&nbsp;  &lt;a href="index.html" class="flex-item-max flex-box logo"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;    &lt;span class="flex-item-max"&gt;&lt;/span&gt; <br>
+                   <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;    &lt;div class="flex-item-min"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      &lt;img src="img/logo.png" alt="logo" &gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;    &lt;/div&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;    &lt;p class="flex-item-min"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      Jimmy Chu <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;    &lt;/p&gt; <br>
+                   <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;    &lt;span class="flex-item-max"&gt;&lt;/span&gt; <br>
+                  &nbsp;&nbsp;  &lt;/a&gt; <br>
+                   <br>
+                  &nbsp;&nbsp;  &lt;nav class="flex-item-min flex-box" aria-label="right-part"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;    &lt;a href="https://www.facebook.com/jimmy.chu.526438/friends_all" target="_blank" class="main-nav-icon flex-item-min"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      &lt;img src="img/Facebook_5.svg" alt="fackbook icon"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;    &lt;/a&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;    &lt;a href="https://github.com/jjccy" target="_blank" class="main-nav-icon flex-item-min"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      &lt;img src="img/Github_5.svg" alt="fackbook icon"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;    &lt;/a&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;    &lt;a href="https://www.linkedin.com/in/jimmy-chu-4b9150188/" target="_blank" class="main-nav-icon flex-item-min"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      &lt;img src="img/Linkedin_5.svg" alt="fackbook icon"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;    &lt;/a&gt; <br>
+                  &nbsp;&nbsp;  &lt;/nav&gt; <br>
+                  &lt;/div&gt; <br>
+                </code>
+              </div>
+            </li>
+
+            <li>
+              <a href="footer-template.html" target="_blank" class="bE-link">Footer template</a>
+
+              <div class="code-holder">
+                <code>
+                  &lt;footer&gt; <br>
+                  &nbsp;&nbsp;  &lt;nav class="footer-nav flex-box"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;    &lt;span class="flex-item-max"&gt;&lt;/span&gt; <br>
+                   <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;    &lt;a href="styleguide.html" class="flex-item-min" target="_blank"&gt;Style Guide&lt;/a&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;    &lt;p class="flex-item-min"&gt;|&lt;/p&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;    &lt;a href="citation.html" class="flex-item-min" target="_blank"&gt;Citation&lt;/a&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;    &lt;p class="flex-item-min"&gt;|&lt;/p&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;    &lt;a href="styleguide.html" class="flex-item-min" target="_blank"&gt;Github&lt;/a&gt; <br>
+                   <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;    &lt;span class="flex-item-max"&gt;&lt;/span&gt; <br>
+                  &nbsp;&nbsp;  &lt;/nav&gt; <br>
+                  &nbsp;&nbsp;  &lt;p&gt;© 2019 Jimmy Chu&lt;/p&gt; <br>
+                  &lt;/footer&gt;
+                </code>
+              </div>
+            </li>
+
+            <li>
+              <p>Projects scoller</p>
+
+              <section class="projects-section">
+
+                <div id="elem" class="flex-box">
+
+                  <div id="outer" class="flex-item-max">
+                    <div id="inner">
+
+                      <div class="project-item">
+                        <div class="flex-box">
+                          <a href="birds-of-feather.html" class="flex-item-min">
+                            <img src="img/bof/birds-of-feather2-min.png" alt="Temp">
+                          </a>
+
+                          <p>Temp</p>
+                        </div>
+                      </div>
+
+                      <div class="project-item">
+                        <div class="flex-box">
+                          <a href="image-mood-converter.html" class="flex-item-min">
+                            <img src="img/bof/birds-of-feather2-min.png" alt="Temp">
+                          </a>
+
+                          <p>Temp</p>
+                        </div>
+                      </div>
+
+                      <div class="project-item">
+                        <div class="flex-box">
+                          <a href="index.html" class="flex-item-min">
+                            <img src="img/bof/birds-of-feather2-min.png" alt="Temp">
+                          </a>
+
+                          <p>Temp</p>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+
+                </div>
+              </section>
+
+              <div class="code-holder">
+                <code>
+                  &lt;section class="projects-section"&gt; <br>
+                   <br>
+                  &nbsp;&nbsp;  &lt;div id="elem" class="flex-box"&gt; <br>
+                   <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;    &lt;div id="outer" class="flex-item-max"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      &lt;div id="inner"&gt; <br>
+                   <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        &lt;div class="project-item"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          &lt;div class="flex-box"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            &lt;a href="birds-of-feather.html" class="flex-item-min"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;              &lt;img src="img/bof/birds-of-feather2-min.png" alt="Temp"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            &lt;/a&gt; <br>
+                   <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            &lt;p&gt;Temp&lt;/p&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          &lt;/div&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        &lt;/div&gt; <br>
+                   <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        &lt;div class="project-item"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          &lt;div class="flex-box"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            &lt;a href="image-mood-converter.html" class="flex-item-min"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;              &lt;img src="img/bof/birds-of-feather2-min.png" alt="Temp"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            &lt;/a&gt; <br>
+                   <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            &lt;p&gt;Temp&lt;/p&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          &lt;/div&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        &lt;/div&gt; <br>
+                   <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        &lt;div class="project-item"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          &lt;div class="flex-box"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            &lt;a href="index.html" class="flex-item-min"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;              &lt;img src="img/bof/birds-of-feather2-min.png" alt="Temp"&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            &lt;/a&gt; <br>
+                   <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            &lt;p&gt;Temp&lt;/p&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          &lt;/div&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        &lt;/div&gt; <br>
+                   <br>
+                   <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      &lt;/div&gt; <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;    &lt;/div&gt; <br>
+                   <br>
+                  &nbsp;&nbsp;  &lt;/div&gt; <br>
+                  &lt;/section
+
+                </code>
+              </div>
+            </li>
+
+          </ol>
+
+        </section><!-- end of style-guide section -->
+
+    </div> <!-- end body-wrapper -->
+
+    <!-- footer starts here -->
+    <footer>
+      <nav class="footer-nav flex-box">
+        <span class="flex-item-max"></span>
+
+        <a href="styleguide.html" class="flex-item-min" target="_blank">Style Guide</a>
+        <p class="flex-item-min">|</p>
+        <a href="citation.html" class="flex-item-min" target="_blank">Citation</a>
+        <p class="flex-item-min">|</p>
+        <a href="https://github.com/jjccy/P03-portfolio/tree/new-master" class="flex-item-min" target="_blank">Github</a>
+
+        <span class="flex-item-max"></span>
+      </nav>
+      <p>© 2019 Jimmy Chu</p>
+    </footer>
+    <!-- footer ends here -->
+
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="script/horizontal-scroll.js"></script>
+    <script src="script/main.js"></script>
+  </body>
+
+</html>

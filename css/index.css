@@ -1,0 +1,192 @@
+#intro {
+  padding-bottom: 18em;
+}
+
+#slogan {
+  display: inline-block;
+  position: absolute !important;
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#slogan > code {
+  text-align: left !important;
+
+  letter-spacing: 0.02em;
+  word-spacing: 0.02em;
+  line-height: 1.6em;
+  font-size: 2rem;
+  font-weight: 500;
+
+  color: #ddd;
+}
+
+#slogan > code > strong{
+  color: rgba(219, 51, 39, 1);
+}
+
+section {
+  margin-bottom: 15em;
+}
+
+h1 {
+  margin-left: 7vw;
+  position: relative;
+  margin-bottom: 1.5em;
+}
+
+#project {
+  margin-top: 100vh;
+  position: relative;
+}
+
+.full-img-background {
+  position: relative;
+}
+
+.index-text-holder {
+  width: 100%;
+  margin: auto;
+
+
+  padding: 0 7vw;
+  padding-top: 60vh;
+
+}
+
+.index-text-holder > .index-title {
+  font-size: 4.5rem;
+  font-weight: 800;
+  color: #ddd;
+  text-decoration: none;
+
+  -webkit-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -ms-transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
+
+.index-text-holder > .index-title:hover,
+.index-text-holder > .index-title:active,
+.index-text-holder > .index-title:focus{
+  color: #fff;
+  font-size: 4.55rem;
+  text-shadow: .05em .05em .1em #555;
+}
+
+.project-description {
+  padding: 2em 7vw;
+
+  text-shadow: .1em .1em .5em rgba(0, 0, 0, 1);
+}
+
+.project-description > p {
+  font-size: 1.2rem;
+}
+
+#about > .flex-box {
+  margin: 0 7vw;
+
+  align-items:flex-end;
+}
+
+#about > .flex-box > img{
+  width: 25vw;
+
+  margin-right: 7em;
+}
+
+#about > .flex-box > .flex-item-min > p:first-child {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#contact > h1 {
+}
+
+#contact-info {
+  font-size: 1rem;
+
+  opacity: .8;
+}
+
+#contact-buttom {
+  display: none;
+}
+
+#contact-buttom > .flex-item-min {
+  margin-right: .5em;
+}
+
+#contact > .bE-form {
+  position: absolute !important;
+
+  left: 50%;
+  transform: translate(-50%, 0%);
+
+  width: 50vw;
+}
+
+#contact > .bE-form > .bE-label {
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+
+#contact > .bE-form > .bE-input-text {
+  background-color: black;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 100;
+
+  margin-top: .3em;
+  margin-bottom: 1em;
+}
+
+#contact > .bE-form .bE-button {
+  /* font-size: 1.5rem; */
+}
+
+#contact > .bE-form > textarea {
+  height: 16em;
+
+  content: none;
+}
+
+#form-button > .flex-item-min:first-child {
+  color: #888;
+  font-size: .8rem;
+}
+
+#form-button > .flex-item-min {
+  margin: 0 .5em;
+}
+
+@media screen and (max-width: 1000px) {
+  .index-text-holder {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+
+  .index-text-holder > .index-title {
+    font-size: 3rem;
+  }
+
+  #about > .flex-box {
+    flex-direction: column;
+  }
+
+  #about > .flex-box > img{
+    width: 100%;
+
+    margin-right: 0;
+    margin-bottom: 5em;
+  }
+
+  #contact-buttom {
+    display: flex;
+    height: 2em;
+  }
+}
