@@ -1,3 +1,224 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c86c626e29a331ec668a88dd33e746b7cfdd7ae63b1a1d1059a424b4e920aa79
-size 19005
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1500 2716" style="enable-background:new 0 0 1500 2716;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1A1A1A;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'MyriadPro-Regular';}
+	.st3{font-size:12px;}
+	.st4{font-size:18px;}
+	.st5{fill:#CCCCCC;}
+	.st6{font-size:13px;}
+	.st7{font-size:26px;}
+	.st8{fill:#8E8E8E;}
+	.st9{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st10{fill:none;}
+	.st11{font-size:11px;}
+	.st12{font-size:9px;}
+	.st13{font-size:22px;}
+	.st14{fill:#B3B3B3;}
+	.st15{fill:none;stroke:#FFFFFF;stroke-width:0.75;stroke-miterlimit:10;}
+	.st16{font-size:7px;}
+	.st17{font-size:7.68px;}
+	.st18{font-size:8px;}
+	.st19{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st20{fill:#E6E6E6;}
+	.st21{font-size:14px;}
+	.st22{fill:none;stroke:#000000;stroke-width:7;stroke-miterlimit:10;}
+	.st23{fill:none;stroke:#000000;stroke-width:6;stroke-miterlimit:10;}
+</style>
+<g id="landing_page">
+	<g>
+		<rect x="176.5" y="104.5" class="st0" width="464" height="2359"/>
+		<path d="M640,105v2358H177V105H640 M641,104H176v2360h465V104L641,104z"/>
+	</g>
+	<g>
+		<g>
+			<rect x="383.5" y="161.5" class="st0" width="49" height="49"/>
+			<path class="st1" d="M432,162v48h-48v-48H432 M433,161h-50v50h50V161L433,161z"/>
+		</g>
+		<text transform="matrix(1 0 0 1 397 189)" class="st1 st2 st3">logo</text>
+	</g>
+	<text transform="matrix(1 0 0 1 252.6665 258.6665)" class="st1 st2 st4">Product</text>
+	<text transform="matrix(1 0 0 1 386.6665 258.6665)" class="st1 st2 st4">About</text>
+	<text transform="matrix(1 0 0 1 502.3335 258.3335)" class="st1 st2 st4">Contact</text>
+	<text transform="matrix(1 0 0 1 349.061 316)"><tspan x="0" y="0" class="st5 st2 st6">Some type of sologon</tspan><tspan x="-9.2" y="15.6" class="st5 st2 st6">it should be long though,</tspan><tspan x="16.8" y="31.2" class="st5 st2 st6">at least two line</tspan></text>
+	<text transform="matrix(1 0 0 1 207.6665 443.6665)" class="st1 st2 st7">Product</text>
+	<g>
+		<rect x="176" y="486" class="st8" width="465" height="251"/>
+		<line class="st9" x1="176" y1="486" x2="641" y2="737"/>
+		<line class="st9" x1="176.4" y1="737.2" x2="641.5" y2="485.5"/>
+	</g>
+	<text transform="matrix(1 0 0 1 207.6665 697.333)" class="st2 st7">Product name</text>
+	<rect x="205" y="755" class="st10" width="410.7" height="110.7"/>
+	<text transform="matrix(1 0 0 1 205 762.8096)"><tspan x="0" y="0" class="st1 st2 st11">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi</tspan><tspan x="392.2" y="0" class="st1 st2 st11">-</tspan><tspan x="0" y="13.2" class="st1 st2 st11">dunt ut labore et dolore magna aliqua. Tellus mauris a diam maecenas sed enim ut. </tspan><tspan x="0" y="26.4" class="st1 st2 st11">Integer enim neque volutpat ac tincidunt. Sed turpis tincidunt id aliquet risus. Ullamcorp</tspan><tspan x="404" y="26.4" class="st1 st2 st11">-</tspan><tspan x="0" y="39.6" class="st1 st2 st11">er sit amet risus nullam. Nullam eget felis eget nunc lobortis mattis aliquam. Ac feugiat </tspan><tspan x="0" y="52.8" class="st1 st2 st11">sed lectus vestibulum mattis ullamcorper velit sed. In pellentesque massa placerat duis. </tspan><tspan x="0" y="66" class="st1 st2 st11">Amet nulla facilisi morbi tempus iaculis urna id volutpat. Odio ut enim blandit volutpat </tspan><tspan x="0" y="79.2" class="st1 st2 st11">maecenas volutpat. Id venenatis a condimentum vitae.</tspan></text>
+	<g>
+		<rect x="176" y="896" class="st8" width="465" height="251"/>
+		<line class="st9" x1="176" y1="896" x2="641" y2="1147"/>
+		<line class="st9" x1="176.4" y1="1147.2" x2="641.5" y2="895.5"/>
+	</g>
+	<text transform="matrix(1 0 0 1 207.6665 1107.333)" class="st2 st7">Product name</text>
+	<rect x="205" y="1165" class="st10" width="410.7" height="110.7"/>
+	<text transform="matrix(1 0 0 1 205 1172.8096)"><tspan x="0" y="0" class="st1 st2 st11">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi</tspan><tspan x="392.2" y="0" class="st1 st2 st11">-</tspan><tspan x="0" y="13.2" class="st1 st2 st11">dunt ut labore et dolore magna aliqua. Tellus mauris a diam maecenas sed enim ut. </tspan><tspan x="0" y="26.4" class="st1 st2 st11">Integer enim neque volutpat ac tincidunt. Sed turpis tincidunt id aliquet risus. Ullamcorp</tspan><tspan x="404" y="26.4" class="st1 st2 st11">-</tspan><tspan x="0" y="39.6" class="st1 st2 st11">er sit amet risus nullam. Nullam eget felis eget nunc lobortis mattis aliquam. Ac feugiat </tspan><tspan x="0" y="52.8" class="st1 st2 st11">sed lectus vestibulum mattis ullamcorper velit sed. In pellentesque massa placerat duis. </tspan><tspan x="0" y="66" class="st1 st2 st11">Amet nulla facilisi morbi tempus iaculis urna id volutpat. Odio ut enim blandit volutpat </tspan><tspan x="0" y="79.2" class="st1 st2 st11">maecenas volutpat. Id venenatis a condimentum vitae.</tspan></text>
+	<g>
+		<rect x="176" y="1306" class="st8" width="465" height="251"/>
+		<line class="st9" x1="176" y1="1306" x2="641" y2="1557"/>
+		<line class="st9" x1="176.4" y1="1557.2" x2="641.5" y2="1305.5"/>
+	</g>
+	<text transform="matrix(1 0 0 1 207.6665 1517.333)" class="st2 st7">Product name</text>
+	<rect x="205" y="1575" class="st10" width="410.7" height="110.7"/>
+	<text transform="matrix(1 0 0 1 205 1582.8096)"><tspan x="0" y="0" class="st1 st2 st11">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi</tspan><tspan x="392.2" y="0" class="st1 st2 st11">-</tspan><tspan x="0" y="13.2" class="st1 st2 st11">dunt ut labore et dolore magna aliqua. Tellus mauris a diam maecenas sed enim ut. </tspan><tspan x="0" y="26.4" class="st1 st2 st11">Integer enim neque volutpat ac tincidunt. Sed turpis tincidunt id aliquet risus. Ullamcorp</tspan><tspan x="404" y="26.4" class="st1 st2 st11">-</tspan><tspan x="0" y="39.6" class="st1 st2 st11">er sit amet risus nullam. Nullam eget felis eget nunc lobortis mattis aliquam. Ac feugiat </tspan><tspan x="0" y="52.8" class="st1 st2 st11">sed lectus vestibulum mattis ullamcorper velit sed. In pellentesque massa placerat duis. </tspan><tspan x="0" y="66" class="st1 st2 st11">Amet nulla facilisi morbi tempus iaculis urna id volutpat. Odio ut enim blandit volutpat </tspan><tspan x="0" y="79.2" class="st1 st2 st11">maecenas volutpat. Id venenatis a condimentum vitae.</tspan></text>
+	<text transform="matrix(1 0 0 1 204.6665 1759.6665)" class="st1 st2 st7">About</text>
+	<g>
+		<rect x="205" y="1808.8" class="st8" width="130.9" height="152.1"/>
+		<line class="st9" x1="205" y1="1808.8" x2="335.9" y2="1960.9"/>
+		<line class="st9" x1="205.1" y1="1961" x2="336" y2="1808.5"/>
+	</g>
+	<rect x="349" y="1872" class="st10" width="259" height="69"/>
+	<text transform="matrix(1 0 0 1 349 1878.3896)"><tspan x="0" y="0" class="st1 st2 st12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </tspan><tspan x="0" y="10.8" class="st1 st2 st12">eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus </tspan><tspan x="0" y="21.6" class="st1 st2 st12">mauris a diam maecenas sed enim ut. Integer enim neque volutpat </tspan><tspan x="0" y="32.4" class="st1 st2 st12">ac tincidunt. Sed turpis tincidunt id aliquet risus. Ullamcorper sit </tspan><tspan x="0" y="43.2" class="st1 st2 st12">amet risus nullam. Nullam eget felis eget nunc lobortis mattis </tspan><tspan x="0" y="54" class="st1 st2 st12">aliquam. Ac feugiat sed lectus vestibulum mattis ullamcorper velit </tspan></text>
+	<text transform="matrix(1 0 0 1 349.6665 1834.6665)" class="st1 st2 st13">Jimmy Chu</text>
+	<text transform="matrix(1 0 0 1 349.6665 1848.6665)" class="st14 st2 st3">Programmer / Game designer</text>
+	<text transform="matrix(1 0 0 1 356.6665 2054.6665)" class="st1 st2 st7">Contact</text>
+	<g>
+		<text transform="matrix(1 0 0 1 346.8779 1957.167)" class="st1 st2 st6">resumes</text>
+		<line class="st15" x1="347.5" y1="1959.5" x2="391.5" y2="1959.5"/>
+	</g>
+	<text transform="matrix(1 0 0 1 258.3335 2105.333)" class="st5 st2 st3">Your Name</text>
+	<g>
+		<rect x="256.5" y="2111.5" class="st0" width="303" height="28"/>
+		<path class="st1" d="M559,2112v27H257v-27H559 M560,2111H256v29h304V2111L560,2111z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 258.3335 2162.333)" class="st5 st2 st3">Email Address</text>
+	<g>
+		<rect x="256.5" y="2168.5" class="st0" width="303" height="28"/>
+		<path class="st1" d="M559,2169v27H257v-27H559 M560,2168H256v29h304V2168L560,2168z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 258.3335 2217.333)" class="st5 st2 st3">Phone number</text>
+	<g>
+		<rect x="256.5" y="2223.5" class="st0" width="303" height="28"/>
+		<path class="st1" d="M559,2224v27H257v-27H559 M560,2223H256v29h304V2223L560,2223z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 258.3335 2272.333)" class="st5 st2 st3">Enter your message</text>
+	<g>
+		<rect x="256.5" y="2278.5" class="st0" width="303" height="99"/>
+		<path class="st1" d="M559,2279v98H257v-98H559 M560,2278H256v100h304V2278L560,2278z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 258.3335 2397.333)" class="st5 st2 st16">myemail.gmail.com</text>
+	<g>
+		<rect x="324" y="2386.5" class="st8" width="17" height="17.5"/>
+		<line class="st9" x1="324" y1="2404" x2="341" y2="2386.5"/>
+		<line class="st9" x1="324" y1="2386.5" x2="341" y2="2404"/>
+	</g>
+	<g>
+		<rect x="348" y="2386.5" class="st8" width="17" height="17.5"/>
+		<line class="st9" x1="348" y1="2404" x2="365" y2="2386.5"/>
+		<line class="st9" x1="348" y1="2386.5" x2="365" y2="2404"/>
+	</g>
+	<g>
+		<rect x="372" y="2386.5" class="st8" width="17" height="17.5"/>
+		<line class="st9" x1="372" y1="2404" x2="389" y2="2386.5"/>
+		<line class="st9" x1="372" y1="2386.5" x2="389" y2="2404"/>
+	</g>
+	<rect x="483" y="2385" class="st5" width="77" height="21"/>
+	<text transform="matrix(1 0 0 1 508.3335 2399.333)" class="st2 st3">Send</text>
+</g>
+<g>
+	<rect x="868.5" y="105.5" class="st0" width="464" height="1958"/>
+	<path d="M1332,106v1957H869V106H1332 M1333,105H868v1959h465V105L1333,105z"/>
+</g>
+<g>
+	<rect x="868" y="105" class="st8" width="465" height="251"/>
+	<line class="st9" x1="868" y1="105" x2="1333" y2="356"/>
+	<line class="st9" x1="868.4" y1="356.2" x2="1333.5" y2="104.5"/>
+</g>
+<g>
+	<g>
+		<path class="st1" d="M1124,122v30h-32v-30H1124 M1125,121h-34v32h34V121L1125,121z"/>
+	</g>
+	<text transform="matrix(1.0625 0 0 1 1100.5205 138.9199)" class="st1 st2 st17">logo</text>
+</g>
+<text transform="matrix(1 0 0 1 884.666 140.6152)" class="st1 st2 st18">Product</text>
+<text transform="matrix(1 0 0 1 931.0107 140.6152)" class="st1 st2 st18">About</text>
+<text transform="matrix(1 0 0 1 969.2256 140.4131)" class="st1 st2 st18">Contact</text>
+<g>
+	<rect x="1257" y="130.5" width="17" height="17.5"/>
+	<line class="st19" x1="1257" y1="148" x2="1274" y2="130.5"/>
+	<line class="st19" x1="1257" y1="130.5" x2="1274" y2="148"/>
+</g>
+<g>
+	<rect x="1284" y="130.5" width="17" height="17.5"/>
+	<line class="st19" x1="1284" y1="148" x2="1301" y2="130.5"/>
+	<line class="st19" x1="1284" y1="130.5" x2="1301" y2="148"/>
+</g>
+<g>
+	<rect x="1309" y="130.5" width="17" height="17.5"/>
+	<line class="st19" x1="1309" y1="148" x2="1326" y2="130.5"/>
+	<line class="st19" x1="1309" y1="130.5" x2="1326" y2="148"/>
+</g>
+<text transform="matrix(1 0 0 1 899.6665 316.333)" class="st2 st7">Product name</text>
+<text transform="matrix(1 0 0 1 899.6665 397.333)" class="st20 st2 st21">Role</text>
+<text transform="matrix(1 0 0 1 899.6665 532.333)" class="st1 st2 st7">Process</text>
+<rect x="1055" y="415" class="st10" width="247" height="76"/>
+<text transform="matrix(1 0 0 1 1055 421.3896)"><tspan x="0" y="0" class="st1 st2 st12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </tspan><tspan x="0" y="14" class="st1 st2 st12">eiusmod tempor incididunt ut labore et dolore magna aliqua. </tspan><tspan x="0" y="28" class="st1 st2 st12">Tellus mauris a diam maecenas sed enim ut. Integer enim neque </tspan><tspan x="0" y="42" class="st1 st2 st12">volutpat ac tincidunt. Sed turpis tincidunt id aliquet risus. </tspan><tspan x="0" y="56" class="st1 st2 st12">Ullamcorper sit amet risus nullam. Nullam eget felis eget nunc </tspan></text>
+<text transform="matrix(1 0 0 1 1054.6665 397.333)" class="st20 st2 st21">Project description</text>
+<rect x="900" y="415" class="st10" width="126" height="76"/>
+<text transform="matrix(1 0 0 1 900 422.8096)"><tspan x="0" y="0" class="st5 st2 st11">Lorem ipsum dolor </tspan><tspan x="0" y="17" class="st5 st2 st11">Sit amet, consectetur </tspan><tspan x="0" y="34" class="st5 st2 st11">Adipiscing elit</tspan></text>
+<g>
+	<rect x="1153" y="576.4" class="st8" width="152.3" height="181.5"/>
+	<line class="st9" x1="1153" y1="576.4" x2="1305.3" y2="757.9"/>
+	<line class="st9" x1="1153.1" y1="758" x2="1305.5" y2="576"/>
+</g>
+<rect x="900" y="576" class="st10" width="208" height="135"/>
+<text transform="matrix(1 0 0 1 900 582.3896)"><tspan x="0" y="0" class="st1 st2 st12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </tspan><tspan x="0" y="14" class="st1 st2 st12">sed do eiusmod tempor incididunt ut labore et dolore </tspan><tspan x="0" y="28" class="st1 st2 st12">magna aliqua. Tellus mauris a diam maecenas sed enim </tspan><tspan x="0" y="42" class="st1 st2 st12">ut. Integer enim neque volutpat ac tincidunt. Sed turpis </tspan><tspan x="0" y="56" class="st1 st2 st12">tincidunt id aliquet risus. Ullamcorper sit amet risus </tspan><tspan x="0" y="70" class="st1 st2 st12">nullam. Nullam eget felis eget nunc lobortis mattis </tspan><tspan x="0" y="84" class="st1 st2 st12">aliquam. Ac feugiat sed lectus vestibulum mattis </tspan><tspan x="0" y="98" class="st1 st2 st12">ullamcorper velit sed. In pellentesque massa placerat </tspan><tspan x="0" y="112" class="st1 st2 st12">duis. Amet nulla facilisi morbi tempus iaculis urna id </tspan><tspan x="0" y="126" class="st1 st2 st12">volutpat. Odio ut enim blandit volutpat maecenas </tspan></text>
+<g>
+	<rect x="900" y="853.3" class="st8" width="229.8" height="158.6"/>
+	<line class="st9" x1="900" y1="853.3" x2="1129.8" y2="1011.9"/>
+	<line class="st9" x1="900.2" y1="1012" x2="1130" y2="853"/>
+</g>
+<rect x="900" y="789" class="st10" width="402" height="45"/>
+<text transform="matrix(1 0 0 1 900 795.3896)"><tspan x="0" y="0" class="st1 st2 st12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </tspan><tspan x="0" y="14" class="st1 st2 st12">dolore magna aliqua. Tellus mauris a diam maecenas sed enim ut. Integer enim neque volutpat ac tincid</tspan><tspan x="388.2" y="14" class="st1 st2 st12">-</tspan><tspan x="0" y="28" class="st1 st2 st12">unt. Sed turpis tincidunt id aliquet risus. Ullamcorper sit amet risus nullam. Nullam eget felis eget nunc </tspan></text>
+<rect x="1198" y="820" transform="matrix(4.205364e-03 -1 1 4.205364e-03 327.8668 2108.2485)" class="st10" width="49" height="139"/>
+<text transform="matrix(1 0 0 1 1153.1011 871.0977)"><tspan x="0" y="0" class="st1 st2 st12">Lorem ipsum dolor sit amet, </tspan><tspan x="-0.1" y="14" class="st1 st2 st12">consectetur adipiscing elit, sed do </tspan><tspan x="-0.1" y="28" class="st1 st2 st12">eiusmod tempor incididunt ut labore </tspan><tspan x="-0.2" y="42" class="st1 st2 st12">et dolore magna aliqua. Tellus </tspan></text>
+<g>
+	<rect x="869" y="1132.5" class="st8" width="464.5" height="236.4"/>
+	<line class="st9" x1="869" y1="1132.5" x2="1333.5" y2="1368.8"/>
+	<line class="st9" x1="869.4" y1="1369" x2="1334" y2="1132"/>
+</g>
+<text transform="matrix(1 0 0 1 899.6665 1105.333)" class="st1 st2 st7">Final result</text>
+<text transform="matrix(1 0 0 1 899.6665 1598.333)" class="st1 st2 st7">Relfection</text>
+<text transform="matrix(1 0 0 1 899.6665 1823.333)" class="st1 st2 st7">Other projects</text>
+<g>
+	<line class="st19" x1="889.5" y1="1250.5" x2="899.5" y2="1231.5"/>
+	<line class="st19" x1="889.5" y1="1250.5" x2="899.5" y2="1269.5"/>
+</g>
+<g>
+	<line class="st19" x1="1312.5" y1="1250.5" x2="1302.5" y2="1269.5"/>
+	<line class="st19" x1="1312.5" y1="1250.5" x2="1302.5" y2="1231.5"/>
+</g>
+<g>
+	<line class="st22" x1="790" y1="366.5" x2="753" y2="406"/>
+	<line class="st22" x1="789.9" y1="366.6" x2="753.1" y2="327"/>
+</g>
+<g>
+	<line class="st19" x1="410.5" y1="387.5" x2="397" y2="377.5"/>
+	<line class="st19" x1="410.5" y1="387.5" x2="424" y2="377.5"/>
+</g>
+<rect x="900" y="1403" class="st10" width="270" height="94"/>
+<text transform="matrix(1 0 0 1 900 1409.3896)"><tspan x="0" y="0" class="st1 st2 st12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </tspan><tspan x="0" y="14" class="st1 st2 st12">tempor incididunt ut labore et dolore magna aliqua. Tellus mauris a </tspan><tspan x="0" y="28" class="st1 st2 st12">diam maecenas sed enim ut. Integer enim neque volutpat ac tincidunt. </tspan><tspan x="0" y="42" class="st1 st2 st12">Sed turpis tincidunt id aliquet risus. Ullamcorper sit amet risus nullam. </tspan><tspan x="0" y="56" class="st1 st2 st12">Nullam eget felis eget nunc lobortis mattis aliquam. Ac feugiat sed </tspan><tspan x="0" y="70" class="st1 st2 st12">lectus vestibulum mattis ullamcorper velit sed. In pellentesque massa </tspan><tspan x="0" y="84" class="st1 st2 st12">placerat duis. Amet nulla facilisi morbi tempus iaculis urna id volutpat. </tspan></text>
+<rect x="900" y="1639" class="st10" width="384" height="71"/>
+<text transform="matrix(1 0 0 1 900 1645.3896)"><tspan x="0" y="0" class="st1 st2 st12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </tspan><tspan x="0" y="14" class="st1 st2 st12">et dolore magna aliqua. Tellus mauris a diam maecenas sed enim ut. Integer enim neque volutpat ac </tspan><tspan x="0" y="28" class="st1 st2 st12">tincidunt. Sed turpis tincidunt id aliquet risus. Ullamcorper sit amet risus nullam. Nullam eget felis eget </tspan><tspan x="0" y="42" class="st1 st2 st12">nunc lobortis mattis aliquam. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. In </tspan><tspan x="0" y="56" class="st1 st2 st12">pellentesque massa placerat duis. Amet nulla facilisi morbi tempus iaculis urna id volutpat. Odio ut </tspan></text>
+<g>
+	<rect x="919" y="1852.2" class="st8" width="163.8" height="106.7"/>
+	<line class="st9" x1="919" y1="1852.2" x2="1082.8" y2="1958.9"/>
+	<line class="st9" x1="919.1" y1="1959" x2="1083" y2="1852"/>
+</g>
+<g>
+	<rect x="1120" y="1852.2" class="st8" width="163.8" height="106.7"/>
+	<line class="st9" x1="1120" y1="1852.2" x2="1283.8" y2="1958.9"/>
+	<line class="st9" x1="1120.1" y1="1959" x2="1284" y2="1852"/>
+</g>
+<g>
+	<line class="st23" x1="693" y1="367" x2="785" y2="367"/>
+</g>
+</svg>
