@@ -12,7 +12,7 @@ $(document).ready(function() {
 
   nIntervId = setInterval(function() {
     showSlides(++slideIndex)
-  }, 10000); // Wait 2000ms before running again
+  }, 20000); // Wait 2000ms before running again
 
 });
 

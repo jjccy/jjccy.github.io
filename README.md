@@ -1,2 +1,2 @@
 # jjccy.github.io
- profolio
+ portfolio

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Homebound</title>
+    <!--
+    Portfolio project io for Jimmy Chu
+    Author Jimmy Chu
+    With a lot of help for html entities and css elements from W3schools.com, CSS tricks, stack overflow
+    -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+
+    <link rel="stylesheet" type = "text/css" href="css/normalize.css">
+    <link rel="stylesheet" type = "text/css" href="css/main.css">
+    <link rel="stylesheet" type = "text/css" href="css/project.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <!-- navgation bar start from here -->
+    <div id="navgation-bar" class="flex-box">
+      <nav class="flex-item-min flex-box" aria-label="left-part">
+        <a href="index.html#project" class="main-nav-link flex-item-min">Product</a>
+        <a href="index.html#about" class="main-nav-link flex-item-min">About</a>
+        <!-- <a href="index.html#contact" class="main-nav-link flex-item-min" id="contact-link">Contact</a> -->
+      </nav>
+
+      <a href="index.html" class="flex-item-max flex-box logo">
+        <span class="flex-item-max"></span>
+
+        <div class="flex-item-min">
+          <img src="img/logo.png" alt="logo image" >
+        </div>
+        <p class="flex-item-min">
+          Jimmy Chu
+        </p>
+
+        <span class="flex-item-max"></span>
+      </a>
+
+      <nav class="flex-item-min flex-box" aria-label="right-part">
+        <a href="https://www.facebook.com/jimmy.chu.526438" target="_blank" class="main-nav-icon flex-item-min">
+          <img src="img/Facebook_5.svg" alt="fackbook icon">
+        </a>
+        <a href="https://github.com/jjccy" target="_blank" class="main-nav-icon flex-item-min">
+          <img src="img/Github_5.svg" alt="github icon">
+        </a>
+        <a href="https://www.linkedin.com/in/jimmy-chu-4b9150188" target="_blank" class="main-nav-icon flex-item-min">
+          <img src="img/Linkedin_5.svg" alt="linkedin icon">
+        </a>
+      </nav>
+    </div>
+    <!-- navgation bar ends here -->
+
+    <div class="full-img-background" style="background-image: url('img/hb/coverImage.png');">
+
+      <h1 class="title">Homebound</h1>
+    </div>
+
+    <!-- start content wrapper -->
+    <div class="content-wrapper">
+
+
+      <div class="project-info flex-box">
+
+        <div class="role flex-item-min">
+          <h2>Role</h2>
+
+          <p>
+            Game Developer <br>Programmer <br> Environment Designer <br> Level Designer <br> Ideator
+          </p>
+
+          <h2>Team</h2>
+
+          <p>
+            Jimmy Chu <br>Nick Spanos <br>Benedict Wong <br>Timothy Temba
+          </p>
+
+
+          <br>
+
+          <a href="https://drive.google.com/drive/folders/1uG26QK6J6i0T-e4KmahnYa08CQe44QTX" target="_blank"class="bE-link">
+            Download Project
+          </a>
+
+          <br>
+
+          <a href="https://csil-git1.cs.surrey.sfu.ca/iat410-fall-2020/disco-ninjas/homebound/activity" target="_blank"class="bE-link">
+            Gitlab
+          </a>
+
+
+        </div>
+
+        <div class="description flex-item-min">
+          <h2>Project overview</h2>
+          <div class="aspect-ratio">
+            <iframe title="project overview"
+            src="https://www.youtube.com/embed/8j5LXTOv0qA"
+            allowfullscreen="allowfullscreen">
+            </iframe>
+          </div>
+
+          <h2>Project Description</h2>
+
+          <p>
+            "Homebound" is a two month team project with Unity from class IAT 410: Advance Game Design.
+            The goal of this project is to create a intersting game with the limited time period we have.
+            "Homebound" An Isometric exploratory roguelike game with crafting elements.
+            It uses a comedic tone as the premise involves catching different creatures
+            and putting them together to build a spaceship to get home.
+            We hope to create an exciting game that has a unique mechanism with
+            the limited time we have. I hope everyone will enjoy this game.
+          </p>
+        </div> <!-- end description -->
+
+      </div> <!-- end project info -->
+
+
+
+      <h1>Process</h1>
+
+      <h2>Motivation</h2>
+
+      <p>
+        From the beginning, our group want to create something related to spaceships and aliens.
+        After a quick brainstorm, I come up with the idea of creating a spaceship
+        with alien animals to escape the planet.
+        Base upon this concept, we come up with some interesting creatures
+        with their unique ability that may be useful for building a spaceship.
+      </p>
+      <p>
+        As the leading programmer and the game developer for this project,
+        here is some image of what I did for this project.
+        For more what I did on this project, you can check it from our
+        <a href="https://disconinjas410.wordpress.com/" target="_blank"class="bE-link">
+          Team Blog
+        </a>
+      </p>
+
+      <!-- start carousel section -->
+      <!--
+      the idea for this carousel is W3 school
+      How TO - Slideshow
+      https://www.w3schools.com/howto/howto_js_slideshow.asp
+      -->
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 7</div>
+          <img src="img/hb/week3Minimap+navAgent-min.gif" alt="minimap and nav agent">
+          <!-- <div class="text">Caption Text</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 7</div>
+          <img src="img/hb/week7AnimalVistionTest2.gif" alt="animal vision test">
+          <!-- <div class="text">Caption Two</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 7</div>
+          <img src="img/hb/week7NewAnimalMovementScrip.gif" alt="movement test">
+          <!-- <div class="text">Caption Three</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 7</div>
+          <img src="img/hb/week8BuildingStation.gif" alt="Budilding station">
+          <!-- <div class="text">Caption Four</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 7</div>
+          <img src="img/hb/week8PickableWeapon.gif" alt="pickable weapon">
+          <!-- <div class="text">Caption Five</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 7</div>
+          <img src="img/hb/week11EndBuildAnimaiton.gif" alt="ending animation">
+          <!-- <div class="text">Caption Five</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">7 / 7</div>
+          <img src="img/hb/week11TazerfaceAttack.gif" alt="animal attack test">
+          <!-- <div class="text">Caption Five</div> -->
+        </div>
+
+
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+      </div>
+
+      <!-- end carousel section -->
+
+      <br>
+
+      <h2>Cut out mechanisms</h2>
+
+      <p>
+        You could tell from the video in our original design, player could visit
+        outside of the nest. However, this is soon removed after this video because
+        it gives the player too much freedom instead of experience the story. Original
+        the game also has day and night, the entire story happens across couple
+        days in-game time, but we realize that it will cause the story become too
+        lengthy, players will get bored before the end of the story.
+      </p>
+
+
+      <p>
+        Due to time constrain, we don’t have too much time to work on this project.
+        Therefore we end up cutting off a lot of cool ideas in our minds.
+        In our original design, after the player finishes building the spaceship,
+        the player needs to fly through a wormhole in the air manually to escape the planet.
+        We also planted to implement 12 different creatures, and each has its own characteristic.
+        The player only needs to collect some to build a functional spaceship.
+        These ideas have to go because they are just not feasible in the time we have.
+        Other ideas that left behind includes but not limited to:
+      </p>
+
+      <ul class="clear-list">
+        <li>A more flexible spaceship building interface</li>
+        <li>Creating multiple ways to build a spaceship</li>
+        <li>Add collectables to catch creatures</li>
+        <li>Some collectables and animals could boost player abilities</li>
+        <li>A more dynamic environment design</li>
+      </ul>
+
+      <p>
+        There are many more fun ideas like this, but one of the most interesting ideas
+        was inspired by how birds and humans see colour differently. We were thinking
+        to change all colour in the game world to a different colour palate to "mimic"
+        how birds see the world. In that case, players won't tell the difference
+        between cigarettes and worm, other than its movement.
+      </p>
+
+      <p>
+        This idea finally got redesigned because it is too aline like, which
+        will break the immersive. However, it helps us to re-think our approach
+        and lead us to the current way to create models for food and garbage.
+      </p>
+
+
+
+
+
+      <h1>Final Result</h1>
+
+      <h2>Walk Through</h2>
+      <div class="aspect-ratio">
+        <iframe title="project walk through"
+        src="https://www.youtube.com/embed/WDKpbDnmksk"
+        allowfullscreen="allowfullscreen">
+        </iframe>
+      </div>
+
+      <h1>Reflection</h1>
+      <p>
+        This project really taught me how to create a game within a team.
+        Every team member has their own vision, but they may not same as yours’.
+        Some of these ideas are great but find out what could apply to the project is also essential.
+        In future, I may keep polishing this project, from mechanics to the interface.
+      </p>
+
+
+    </div>
+    <!-- end content wrapper -->
+
+
+    <!-- start of projects section -->
+
+    <section class="projects-section">
+      <h1>Other projects</h1>
+
+      <div id="elem" class="flex-box">
+
+        <div id="outer" class="flex-item-max">
+          <div id="inner">
+
+            <div class="project-item">
+              <div class="flex-box">
+                <a href="birds-of-feather.html" class="flex-item-min">
+                  <img src="img/bof/birds-of-feather2-min.png" alt="bird of feather">
+                </a>
+
+                <p>Birds of a Feather</p>
+              </div>
+            </div>
+
+            <div class="project-item">
+              <div class="flex-box">
+                <a href="homebound.html" class="flex-item-min">
+                  <img src="img/hb/coverImage.png" alt="Homebound">
+                </a>
+
+                <p>Homebound</p>
+              </div>
+            </div>
+
+            <div class="project-item">
+              <div class="flex-box">
+                <a href="image-mood-converter.html" class="flex-item-min">
+                  <img src="img/imc/imc-cover-min.jpg" alt="image mood converter">
+                </a>
+
+                <p>Image Mood Converter</p>
+              </div>
+            </div>
+
+            <!-- <div class="project-item">
+              <div class="flex-box">
+                <a href="index.html" class="flex-item-min">
+                  <img src="img/birds-of-feather.png" alt="temp">
+                </a>
+
+                <p>Temp</p>
+              </div>
+            </div> -->
+
+
+          </div> <!-- end of inner -->
+        </div> <!-- end of outer -->
+
+      </div> <!-- end of elem -->
+    </section>
+
+    <!-- end of project section -->
+
+    <!-- footer starts here -->
+    <footer>
+      <nav class="footer-nav flex-box">
+        <span class="flex-item-max"></span>
+
+        <a href="styleguide.html" class="flex-item-min" target="_blank">Style Guide</a>
+        <p class="flex-item-min">|</p>
+        <a href="citation.html" class="flex-item-min" target="_blank">Citation</a>
+        <p class="flex-item-min">|</p>
+        <a href="https://github.com/jjccy/jjccy.github.io" class="flex-item-min" target="_blank">Github</a>
+
+        <span class="flex-item-max"></span>
+      </nav>
+      <p>© 2019 Jimmy Chu</p>
+    </footer>
+    <!-- footer ends here -->
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <div class="modal-holder">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        class="modal-content" id="img01" alt="modal image">
+      </div>
+    </div>
+
+    <!-- blinking hint -->
+    <div id = "hint" class="noSelect">
+      <p id="hint-i">&#10095;</p>
+    </div>
+
+    <!-- back to top button -->
+    <a id="back2Top" href="#">&#10148;</a>
+
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="script/horizontal-scroll.js"></script>
+    <script src="script/carousel.js"></script>
+    <script src="script/main.js"></script>
+  </body>
+</html>
