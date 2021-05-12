@@ -435,8 +435,21 @@ https://www.w3schools.com/howto/howto_js_slideshow.asp
   margin: .5em !important;
 }
 
+.logo:hover img,
+.logo:active img,
+.logo:focus img {
+  opacity: 1;
+
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -ms-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
 .logo img {
   height: 3em;
+  opacity: 0;
 }
 
 .logo p {
